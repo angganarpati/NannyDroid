@@ -1,0 +1,106 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.neti.nannydroidalpha"
+    android:versionCode="1"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+       
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />   
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.neti.nannydroidalpha.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.neti.usermanagement.Login"
+            android:label="@string/login"
+            android:parentActivityName="com.neti.nannydroidalpha.MainActivity" >
+        </activity>
+        
+        <activity
+            android:name="com.neti.usermanagement.Register"
+            android:label="@string/register"
+            android:parentActivityName="com.neti.nannydroidalpha.MainActivity" >
+        </activity>
+        
+        <activity
+            android:name="com.neti.nannydroidalpha.RankingActivity"
+            android:label="@string/rank"
+            android:parentActivityName="com.neti.nannydroidalpha.MainActivity" >
+        </activity>
+        
+        <activity
+            android:name="com.neti.usermanagement.ChangePassword"
+            android:label="@string/app_name">
+        </activity>
+        
+        <activity
+            android:name="com.neti.usermanagement.Registered"
+            android:label="@string/app_name">
+        </activity>
+        
+        <activity
+            android:name="com.neti.nannydroidalpha.UserMainActivity"
+            android:label="@string/app_name">
+        </activity>
+        
+        <activity
+            android:name="com.neti.usermanagement.PasswordReset"
+            android:label="@string/app_name">
+        </activity>
+        
+        <!-- this to show activity question -->
+        <activity
+            android:name="com.neti.question.activity.EtikaActivity"
+            android:label="@string/etika" >
+        </activity>
+        <activity
+            android:name="com.neti.question.activity.GiziActivity"
+            android:label="@string/gizi" >
+        </activity>
+        <activity
+            android:name="com.neti.question.activity.KebersihanActivity"
+            android:label="@string/kebersihan" >
+        </activity>
+        <activity
+            android:name="com.neti.question.activity.KesehatanActivity"
+            android:label="@string/kesehatan" >
+        </activity>
+        <activity
+            android:name="com.neti.question.activity.PerkembanganAnakActivity"
+            android:label="@string/perkembangan" >
+        </activity>
+        <activity
+            android:name="com.neti.question.activity.PerlengkapanActivity"
+            android:label="@string/perlengkapan" >
+        </activity>
+        <activity
+            android:name="com.neti.question.activity.PsikologiActivity"
+            android:label="@string/psikologi" >
+        </activity>
+        
+        <activity
+            android:name="com.neti.question.activity.HasilActivity"
+            android:label="@string/hasiletika" >
+        </activity>
+        
+        <activity
+            android:name="com.neti.question.activity.TotalHasilActivity"
+            android:label="@string/hasiletika" >
+        </activity>
+       
+    </application>
+</manifest>

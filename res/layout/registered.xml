@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+		    <TextView
+		            android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+		            android:textAppearance="?android:attr/textAppearanceMedium"
+		            android:text="@string/congrat"
+		            android:id="@+id/textView" 
+		            android:layout_marginTop="10dp"
+		            android:layout_gravity="center"/>
+		
+		    <TextView
+		            android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+		            android:text="@string/detail_regis"
+		            android:id="@+id/textView2"
+					android:layout_marginLeft="10dp"
+					android:layout_marginTop="10dp"/>
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:layout_marginTop="10dp" >
+
+		        <TextView
+		            android:id="@+id/textView3"
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            android:layout_marginLeft="10dp"
+		            android:text="@string/name" />
+		        
+		        <TextView
+		            android:id="@+id/name"
+		            android:layout_width="fill_parent"
+		            android:layout_height="match_parent"
+		            android:layout_marginLeft="10dp"/>
+		    </LinearLayout>
+		    
+		    <LinearLayout
+            	android:layout_width="match_parent"
+           		android:layout_height="wrap_content"
+            	android:orientation="vertical" 
+            	android:layout_marginTop="10dp">
+		
+		    <TextView
+		            android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+		            android:text="@string/ktp"
+		            android:layout_marginLeft="10dp"
+		            android:id="@+id/textView4"/>
+		    
+		
+		    <TextView
+		            android:layout_width="fill_parent"
+					android:layout_height="match_parent"
+		            android:id="@+id/ktp"
+		            android:layout_marginLeft="10dp"/>
+		    </LinearLayout>
+		    
+		    
+		    <LinearLayout
+            	android:layout_width="match_parent"
+           		android:layout_height="wrap_content"
+            	android:orientation="vertical" 
+            	android:layout_marginTop="10dp">
+		    
+		    <TextView
+		            android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+		            android:text="@string/ttl"
+		            android:layout_marginLeft="10dp"
+		            android:id="@+id/textView5"/>
+		    
+		    <TextView
+		            android:layout_width="fill_parent"
+					android:layout_height="match_parent"
+		            android:id="@+id/ttl"
+		            android:layout_marginLeft="10dp"/>
+		    </LinearLayout>
+		    
+		    
+		    <LinearLayout
+            	android:layout_width="match_parent"
+           		android:layout_height="wrap_content"
+            	android:orientation="vertical" 
+            	android:layout_marginTop="10dp">
+		    
+		    <TextView
+		            android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+		            android:text="@string/edu"
+		           	android:layout_marginLeft="10dp"/>
+		    
+		    <TextView
+		            android:layout_width="fill_parent"
+					android:layout_height="match_parent"
+		            android:id="@+id/edu"
+		            android:layout_marginLeft="10dp"/>
+		    </LinearLayout>
+		    
+		    <LinearLayout
+            	android:layout_width="match_parent"
+           		android:layout_height="wrap_content"
+            	android:orientation="vertical" 
+            	android:layout_marginTop="10dp">
+		    
+		    <TextView
+		            android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+		            android:text="@string/email"
+		            android:layout_marginLeft="10dp"
+		            android:id="@+id/textView7"/>
+		
+		    <TextView
+		           	android:layout_width="fill_parent"
+					android:layout_height="match_parent"
+		            android:id="@+id/email"
+		            android:layout_marginLeft="10dp"/>
+		    </LinearLayout>
+		    
+		    <LinearLayout
+            	android:layout_width="match_parent"
+           		android:layout_height="wrap_content"
+            	android:orientation="vertical"
+            	android:layout_marginTop="10dp" >
+		
+		    <TextView
+		            android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+		            android:text="@string/username"
+		            android:layout_marginLeft="10dp"
+		            android:id="@+id/textView9"/>
+		
+		    <TextView
+		            android:layout_width="fill_parent"
+					android:layout_height="match_parent"
+		            android:id="@+id/uname"
+		            android:layout_marginLeft="10dp"/>
+		    </LinearLayout>
+		    
+		    <LinearLayout
+            	android:layout_width="match_parent"
+           		android:layout_height="wrap_content"
+            	android:orientation="vertical" 
+            	android:layout_marginTop="10dp">
+		
+		    <TextView
+		            android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+		            android:text="@string/reg_at"
+		            android:id="@+id/textView11"
+		           	android:layout_marginLeft="10dp"/>
+		
+		    <TextView
+		            android:layout_width="fill_parent"
+					android:layout_height="match_parent"
+		            android:id="@+id/regat"
+		            android:layout_marginLeft="10dp"/>
+		    </LinearLayout>
+		
+		    <Button
+		            android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+		            android:text="@string/back_login"
+		            android:id="@+id/login"/>
+		 </LinearLayout> 
+		
+</ScrollView>
